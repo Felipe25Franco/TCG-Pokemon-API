@@ -1,5 +1,10 @@
 package com.example.API_PokemonCards.api.controller;
 
+import com.example.API_PokemonCards.service.*;
+import com.example.API_PokemonCards.api.DTO.*;
+import com.example.API_PokemonCards.exception.RegraNegocioException;
+import com.example.API_PokemonCards.model.entity.Serie;
+
 import java.util.Optional;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
@@ -16,7 +21,7 @@ import lombok.RequiredArgsConstructor;
 @Api("API de Series")
 @CrossOrigin
 
-public class SerieController SerieController {
+public class SerieController {
     private final SerieService service;
 
     @GetMapping
@@ -28,7 +33,7 @@ public class SerieController SerieController {
     })
     public ResponseEntity get() {
         List<Serie> series = service.getSeries();
-        return ResponseEntity.ok(series.stream().map(SereiDTO::create).collect(Collectors.toList()));
+        return ResponseEntity.ok(series.stream().map(SerieDTO::create).collect(Collectors.toList()));
     }
 
     @GetMapping("/{id}")

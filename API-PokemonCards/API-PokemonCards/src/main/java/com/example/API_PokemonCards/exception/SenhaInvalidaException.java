@@ -1,4 +1,4 @@
-package com.example.API_PokemonCars.exception;
+package com.example.API_PokemonCards.exception;
 
 public class SenhaInvalidaException extends RuntimeException {
     public SenhaInvalidaException() {

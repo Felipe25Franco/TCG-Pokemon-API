@@ -1,5 +1,7 @@
-import com.example.SCHs2j17.exception.RegraNegocioException;
-import com.example.SCHs2j17.model.entity.*;
+package com.example.API_PokemonCards.service;
+import com.example.API_PokemonCards.exception.RegraNegocioException;
+import com.example.API_PokemonCards.model.entity.*;
+import com.example.API_PokemonCards.model.repository.*;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

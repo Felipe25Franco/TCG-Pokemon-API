@@ -15,9 +15,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.example.animeAllStar_back.security.JwtAuthFilter;
-import com.example.animeAllStar_back.security.JwtService;
-import com.example.animeAllStar_back.service.UsuarioService;
+import com.example.API_PokemonCards.security.JwtAuthFilter;
+import com.example.API_PokemonCards.security.JwtService;
+import com.example.API_PokemonCards.service.UsuarioService;
 
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
