@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>APIPokemonCards</artifactId>
+    <artifactId>API-PokemonCards</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Demo APIPokemonCards</name>
+    <name>API-PokemonCards</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
