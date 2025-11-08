@@ -16,6 +16,7 @@ public class CartaDTO {
     private Integer pokedexNumero;
     private Integer numero;
     private String raridade;
+    private float preco;
     private Long idSet;
 
     public static CartaDTO create(Carta carta) {
